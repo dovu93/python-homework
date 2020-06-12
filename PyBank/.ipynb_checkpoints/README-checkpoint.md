@@ -9,7 +9,7 @@ adding: need to create lists to store the data from the csv as it's just "text"
 
 3. calculate number of months in data = months
 
-4. add up column 2, which is profit/loss = profit
+4. add up column 2, which is profit/loss = profit/loss
 
 5. calculate average profit/loss per month = average
 
