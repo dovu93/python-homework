@@ -5,33 +5,45 @@
 
 2. Be able to read the data from csv
 
-adding: need to create lists to store the data from the csv as it's just "text"
+3. calculate number of months in data 
 
-3. calculate number of months in data = months
+    * basically count how many lines of data there are in the csv
 
-4. add up column 2, which is profit/loss = profit
+4. add up column 2, which is profit/loss
 
-5. calculate average profit/loss per month = average
+    * need to import the data in column 1 into a list and add up to get a number to understand what the profit/loss is for the timeframe
 
-6. find the month with the highest profits = gains
+5. calculate average profit/loss per month
 
-7. find the month with the highest loss = loss
+    * Divide the profit/loss by how many months there are
+
+6. find the month with the highest profits
+
+    * find the index with the highest number from the list created in number 4 and give it a value
+
+7. find the month with the highest loss
+
+    * find the index with the lowest number from the list created in number 4 and give it a value
 
 8. print the following
 
-    Financial Analysis
+    * Financial Analysis
     
-    Total months = months
+    * Total months
     
-    Total = $profit/loss
+    * Total $$
     
-    Average Change: $average
+    * Average Change: 
     
-    Greatest Increase in Profits: Gains (amount)
+    * Greatest Increase in Profits: 
     
-    Greatest Decrease in Profits: Loss (amount)
+    * Greatest Decrease in Profits: 
     
 
 9. Find a way to print the above into the terminal
 
+    * use a simple print() command
+
 10. Export the report into a text file. 
+
+    * use a write code? or copy and pase function?
