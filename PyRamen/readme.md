@@ -17,7 +17,7 @@
     profit = 0
 
 
-5. split sales up into quantity and menu item, index 3,4 (STILL NEED TO WORK ON HOW TO ADD UP QUANITY UHGGGGGGHHGHGHHGHGHG)
+5. split sales up into quantity and menu item, index 3,4 
 
     for x in sales:
         quanity = sales([3])
@@ -33,14 +33,42 @@
                 profit: 0            
             }
 
-
-
-
     for ticker, ticker_data in new_records.items():
         # Set the new record to be added in list format
         record = [ticker_data['date'], ticker_data['open'], ticker_data['high'], ticker_data['low'], ticker_data['close']]    * 
 
-6. 
+6. # going through menu and adding in price and cost to report.
+
+    for line in menu:
+        item = menu[0]
+        price = menu[3]
+        cost = menu[4]
+        if item in report:
+            # do not use formulas from readme, they are not correct.
+            quan = report[menu]["count"]
+            report[item][revenue] += price * quan
+            report[sales_item]["03-cogs"] += cost * quantity
+            report[sales_item]["04-profit"] += profit * quantity
+        else:
+            print(item does not equal item sales item! NO MATCH!)
+
+
+7. # adding results to text, should try print functions first to see if it works
+
+print(report[0])
+
+
+
+    with open("Report.txt", "w") as text:
+        text.write("Sales Report for Ramen at PyRamen")
+        text.write("Sales Report for PyRamen")
+        text.write("Sales Report for PyRamen")
+        text.write("Sales Report for PyRamen")
+        text.write("Sales Report for PyRamen")
+        text.write("Sales Report for PyRamen")
+        text.write("Sales Report for PyRamen")
+        text.write("Sales Report for PyRamen")
+
 
 
 
